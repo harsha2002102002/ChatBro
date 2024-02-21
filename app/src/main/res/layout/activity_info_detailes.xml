@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info_detailes">
+
+    <EditText
+        android:id="@+id/enterphoto"
+        android:layout_width="259dp"
+        android:layout_height="85dp"
+        android:alpha="0.8"
+        android:background="@drawable/sognback"
+        android:gravity="center"
+        android:hint="username"
+        android:textColorHint="#CAB603"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/cickpic"
+        android:layout_width="171dp"
+        android:layout_height="153dp"
+        android:src="@drawable/photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterphoto"
+        app:layout_constraintVertical_bias="0.107">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="upload pic"
+        android:textColor="#CAB603"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cickpic"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/uplod"
+        android:layout_width="315dp"
+        android:layout_height="82dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="upload"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="skip"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uplod">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

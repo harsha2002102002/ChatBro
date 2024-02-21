@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961619425750",
+    "firebase_url": "https://chatbro-f5277-default-rtdb.firebaseio.com",
+    "project_id": "chatbro-f5277",
+    "storage_bucket": "chatbro-f5277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961619425750:android:282fc766878ebf32994c77",
+        "android_client_info": {
+          "package_name": "com.harsha.chatbro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961619425750-7ag1892t9mrpb2u978bg3sqedq5du7h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harsha.chatbro",
+            "certificate_hash": "bef68fe4813a05b7598e9e557aae499458ebc2d9"
+          }
+        },
+        {
+          "client_id": "961619425750-8fjnrf5fijqdbkfm57gr1ous1536sn4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYAD2ru026BWrgK2XOaqAPs7JErpz9YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961619425750-8fjnrf5fijqdbkfm57gr1ous1536sn4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
